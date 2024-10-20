@@ -1,0 +1,58 @@
+{
+	"prefix": {
+        "en": "[{red}TeamBet{default}]",
+        "ro": "[{red}TeamBet{default}]"
+    },
+    "won": {
+        "en": "You won {green}${amount}{default}!",
+        "ro": "Ai câștigat {green}${amount}{default}!"
+    },
+    "lost": {
+		"en": "You lost {red}${amount}{default}!",
+        "ro": "Ai pierdut {red}${amount}{default}!"
+	},
+    "usage":{
+        "en": "Usage: bet <team({red}T{default}/{blue}CT{default})> <amount/all>",
+        "ro": "Folosire: bet <team> <amount>"
+    },
+    "alreadyBet":{
+        "en": "You already bet, your bet: {team} {green}${amount}",
+        "ro": "Ai pariat deja, pariul tău: {team} {green}${amount}"
+    },
+    "restrictedBet":{
+        "en": "You can't bet right now.",
+        "ro": "Nu poți paria acum."
+    },
+    "betAlive":{
+        "en": "You can't bet while you're alive.",
+        "ro": "Nu poți paria cât timp ești în viață."
+    },
+    "restrictedTeam":{
+        "en": "You can't bet from this team.",
+        "ro": "Nu poți paria de la această echipă."
+    },
+    "allPlayersDeath":{
+        "en": "All players are dead, you can't bet.",
+        "ro": "Toți jucătorii sunt morți, nu poți paria."
+    },
+    "invalidTeam":{
+        "en": "Invalid team, use {red}t{default} or {blue}ct{default}.",
+        "ro": "Echipă invalidă, folosește {red}t{default} sau {blue}ct{default}."
+    },
+    "maxMoney":{
+        "en": "You can't bet, you already have the maximum amount of money.",
+        "ro": "Nu poți paria deoarece ai deja suma maximă de bani."
+    },
+    "invalidAmount":{
+        "en": "Invalid amount, the minimum amount is {green}${min}{default} and the maximum amount is {green}${max}{default}",
+        "ro": "Sumă invalidă, suma minimă este {green}${min}{default} și suma maximă este {green}${max}{default}"
+    },
+    "notEnoughMoney":{
+        "en": "You need {red}{money}{default} more to bet {red}{amount}{default}.",
+        "ro": "Ai nevoie de încă {red}{money}{default} pentru a paria {red}{amount}{default}."
+    },
+    "bet":{
+        "en": "You bet {green}${amount}{default} on {team} team.",
+        "ro": "Ai pariat {green}${amount}{default} pe echipa {team}."
+    }
+}
