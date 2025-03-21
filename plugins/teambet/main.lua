@@ -58,6 +58,7 @@ AddEventHandler("OnClientChat", function(event, playerid, text, teamonly)
 
     if text:sub(1, 1) == "!" or text:sub(1, 1) == "/" then return end
 
+    if not text or text:match("^%s*$") then return end
     local args = text:split(" ")
     local argc = #args
 
